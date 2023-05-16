@@ -5,11 +5,11 @@ package Colas;
  * @author roilanrodriguez55
  * @param <E>
  */
-public class LinkedQueve<E> implements Cola<E> {
+public class LinkedQueue<E> implements Cola<E> {
 
     private Node<E> first, last;
 
-    public LinkedQueve() {
+    public LinkedQueue() {
         this.first = null;
         this.last = null;
     }

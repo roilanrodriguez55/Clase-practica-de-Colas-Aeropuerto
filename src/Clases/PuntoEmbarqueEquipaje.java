@@ -1,18 +1,17 @@
 package Clases;
 
-import Clases.Equipaje;
-import Colas.LinkedQueve;
+import Colas.LinkedQueue;
 
 public class PuntoEmbarqueEquipaje {
 
-    public LinkedQueve<Equipaje> estera1;
-    public LinkedQueve<Equipaje> estera2;
-    public LinkedQueve<Equipaje> estera3;
+    public LinkedQueue<Equipaje> estera1;
+    public LinkedQueue<Equipaje> estera2;
+    public LinkedQueue<Equipaje> estera3;
 
     public PuntoEmbarqueEquipaje() {
-        estera1 = new LinkedQueve<>();
-        estera2 = new LinkedQueve<>();
-        estera3 = new LinkedQueve<>();
+        estera1 = new LinkedQueue<>();
+        estera2 = new LinkedQueue<>();
+        estera3 = new LinkedQueue<>();
 
         estera1.add(new Equipaje("01", 10));
         estera1.add(new Equipaje("02", 12));
